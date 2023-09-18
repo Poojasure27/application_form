@@ -1,0 +1,64 @@
+*{
+    text-align:center;
+
+}
+div{
+padding:8px;
+}
+
+input{
+    height: 30px;
+    width: 30%;
+}
+
+button{
+    height:30px;
+    width:20%;
+    margin-top:50px;
+}
+
+label{
+    color:red;
+}
+
+    
+    
+
+.app {
+    width: 280px;
+    margin: 10px auto; /* Center the app div horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+  
+  /* Add the same padding to the label for consistency */
+  .country-list-label {
+    color: red;
+    padding: 8px;
+  }
+  
+
+
+  
+  
+  .country-list-container {
+    width: 30%;
+    font-size: 14px;
+    padding: 8px; /* Adjust padding for consistency with other fields */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left : 500px;
+    display: flex;
+    
+  }
+  .country-list-select {
+    width: 100% ; 
+   /* Match the width with the container */
+    height: 10px;
+    font-size: 14px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
